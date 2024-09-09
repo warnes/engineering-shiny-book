@@ -323,7 +323,7 @@ knitr::include_graphics("img/controlflow.png")
 ```
 
 The complexity number is then computed by taking the number of nodes, subtracting the number of edges, and adding twice the number of connected components of this graph.
-The algorithm is then $M = E − N + 2P$, where $M$ is the measure, $E$ the number of edges, $N$ the number of nodes and $2P$ is twice the number of connected components.
+The algorithm is then $M = N − E + 2P$, where $M$ is the measure, $E$ the number of edges, $N$ the number of nodes and $2P$ is twice the number of connected components.
 We will not go deep into this topic, as there are a lot things going on in this computation and you can find much documentation about this online.
 Please refer to the bibliography for further readings about the theory behind this measurement.
 
