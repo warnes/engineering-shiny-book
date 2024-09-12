@@ -220,7 +220,7 @@ Fake datasets created with `{fakir}` can be used to build light examples on the 
 ## Building with RMarkdown {#proto-rmdfirst}
 
 While on one side you are building the user interface, you (or someone from your team) can start working on the back-end implementation.
-This implementation should be done out of any reactive logic: the back-end should not depend on any reactive context.
+This implementation should be done without of any reactive logic: the back-end should not depend on any reactive context.
 And because documentation is gold, you should start with writing the back-end documentation directly as package documentation:
 
 -   Inside your Vignettes folder: call `usethis::use_vignette()` to create the skeleton for a Vignette, which will then be used as package documentation.
